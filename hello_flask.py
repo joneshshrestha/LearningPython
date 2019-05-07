@@ -9,6 +9,6 @@ def hello() -> str:
 
 @app.route('/search4')
 def do_search() -> str:
-    return str(search4letters('life, the universe, and everything', 'eiru,!'))
+    return search4letters('life, the universe, and everything', 'eiru,!')
 
 app.run()
